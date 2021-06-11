@@ -105,6 +105,12 @@
 		</dependency>
 	<!-- Thanks for using https://jar-download.com -->
 
+		<dependency>
+			<groupId>supplement</groupId>
+			<artifactId>supplement</artifactId>
+			<version>1.0</version>
+		</dependency>
+
 	</dependencies>
 
   <build>
