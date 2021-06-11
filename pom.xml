@@ -1,0 +1,123 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>directional_changes</groupId>
+	<artifactId>dc</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>Directional Changes Forex Strategy</name>
+	
+	<developers>
+		<developer>
+			<id>bob m</id>
+			<name>Bob Matthews</name>
+			<email>rgmatthews@orcon.net.nz</email>
+			<properties>
+				<active>true</active>
+			</properties>
+		</developer>
+	</developers>
+	<description>
+		ta4j is a Java library providing a simple API for technical analysis.
+	</description>
+
+	<dependencies>     
+	<!-- https://mvnrepository.com/artifact/dsol/dsol-xml -->
+		<dependency>
+			<groupId>dsol</groupId>
+			<artifactId>dsol-xml</artifactId>
+			<version>1.6.9</version>
+		</dependency>
+		
+		<dependency>
+            <groupId>org.ta4j</groupId>
+            <artifactId>ta4j-core</artifactId>
+            <version>0.14</version>
+        </dependency>
+		
+	<!-- https://mvnrepository.com/artifact/nz.ac.waikato.cms.moa/weka-package -->    
+		<dependency>
+            <groupId>nz.ac.waikato.cms.moa</groupId>
+            <artifactId>weka-package</artifactId>
+            <version>2020.12.0</version>
+        </dependency>
+    
+		<dependency>
+            <groupId>nz.ac.waikato.cms.moa</groupId>
+            <artifactId>autoweka</artifactId>
+            <version>2.6.1</version>
+        </dependency>
+
+	<!-- https://mvnrepository.com/artifact/nz.ac.waikato.cms.weka/SMOTE -->
+		<dependency>
+			<groupId>nz.ac.waikato.cms.weka</groupId>
+			<artifactId>SMOTE</artifactId>
+			<version>1.0.2</version>
+		</dependency>
+
+	<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-math3 -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-math3</artifactId>
+			<version>3.6.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.hamcrest</groupId>
+			<artifactId>hamcrest-core</artifactId>
+			<version>1.3</version>
+		</dependency>
+	
+		<dependency>
+			<groupId>org.jfree</groupId>
+			<artifactId>jcommon</artifactId>
+			<version>1.0.23</version>
+		</dependency>
+	<!-- Thanks for using https://jar-download.com -->
+
+		<dependency>
+			<groupId>org.jfree</groupId>
+			<artifactId>jfreechart</artifactId>
+			<version>1.0.19</version>
+		</dependency>
+	<!-- Thanks for using https://jar-download.com -->
+
+		<dependency>
+			<groupId>org.jfree</groupId>
+			<artifactId>jfreesvg</artifactId>
+			<version>2.0</version>
+		</dependency>
+	<!-- Thanks for using https://jar-download.com -->
+
+	<!-- https://mvnrepository.com/artifact/joda-time/joda-time -->
+		<dependency>
+			<groupId>joda-time</groupId>
+			<artifactId>joda-time</artifactId>
+			<version>2.9.9</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.googlecode.netlib-java</groupId>
+			<artifactId>netlib-java</artifactId>
+			<version>0.9.3</version>
+		</dependency>
+	<!-- Thanks for using https://jar-download.com -->
+
+	</dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-compiler-plugin</artifactId>
+    <version>3.8.0</version>
+    <configuration>
+        <release>11</release>
+    </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  
+</project>
