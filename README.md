@@ -6,7 +6,7 @@ The paper has a link to github to download the project (as an Eclipse project)
 https://github.com/adesolaadegboye?SymbolicRegression
 
 After downloading the project I found there were several problems with the source code
-I opened a topic at BigMooseSaloon and received excellent help
+I opened a topic at Big Moose Saloon - Coderanch and received excellent help
 
 General opinion is that the github project is poorly setup
 
